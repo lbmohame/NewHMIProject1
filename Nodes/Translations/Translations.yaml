@@ -1,0 +1,71 @@
+Name: Translations
+Type: FolderType
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [19,4],
+    "Body": [
+     "","en-US","fr-FR","ar-SA",
+     "Acknowledge","Acknowledge","","",
+     "Acknowledge All","Acknowledge All","","",
+     "Confirm","Confirm","","",
+     "Confirm All","Confirm All","","",
+     "SourceName","Source Variable","","",
+     "Timestamp","Timestamp","","",
+     "Name","Name","","",
+     "Message","Message","","",
+     "Active","Active","","",
+     "Acked","Acked","","",
+     "Confirmed","Confirmed","","",
+     "Severity","Severity","","",
+     "pump stopped","pump stopped","pompe arreté","توقفت المضخة",
+     "valve overflow","valve overflow","valve en surpression","صمام الضغط الزائد",
+     "PUMPS stoppeddd","PUMPS stopped","pompe arreté","توقفت المضخة",
+     "LoginFormLoginSuccessful","Login successful","","",
+     "LoginFormPasswordExpired","Password expired","","",
+     "LoginFormAuthenticationFailed","Authentication failed","",""
+    ]
+   }
+- Name: ImportAndExportTranslations
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/Users/Rockwell/Desktop/test_Alan_trainig/export_languages.csv"
+  - Class: Method
+    Name: ExportTranslations
+  - Class: Method
+    Name: ImportTranslations
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LocalizationDictionary
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":42,"Namespace":1}
+    - Name: NodeClass
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      Value: 0

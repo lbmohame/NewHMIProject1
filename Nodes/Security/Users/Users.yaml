@@ -1,0 +1,74 @@
+Name: Users
+Id: g=581b1123940fa74d95ade7ae03093482
+Type: FolderType
+Children:
+- Name: test
+  Id: g=b5c803a6ffa7b6d272cc3f37a3cbdcc6
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=94be692090dc7bf1af58c2c95f52688a
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=7a7bd020efcbebb23e89f2426051556f
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[196,234,18,6,243,152,4,204,159,70,219,249,86,16,125,212,15,206,66,18,237,22,232,115,142,92,218,1,43,203,236,43],"Salt":[58,178,235,202,255,197,35,4,12,49,13,116,146,125,138,162,146,57,195,2,158,118,253,221,164,168,12,209,132,230,23,230]}}
+    - Name: ChangeTimestamp
+      Id: g=7479b92e65fbebfe6e167f51c68eba74
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-12-08T13:55:34.8930617"
+    - Name: History
+      Id: g=2a30917d058b4b5dbcc8d9121672c128
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[196,234,18,6,243,152,4,204,159,70,219,249,86,16,125,212,15,206,66,18,237,22,232,115,142,92,218,1,43,203,236,43],"Salt":[58,178,235,202,255,197,35,4,12,49,13,116,146,125,138,162,146,57,195,2,158,118,253,221,164,168,12,209,132,230,23,230]}}]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=53a71052980504514505b9779ebff82e
+- Name: admin
+  Id: g=ddbaa2999ce3aad67e3c2f35871c2c69
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=f8d73f75fb0ce542e70fbba9d2bef501
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=5e7a00ad23fb5b31f05f156bdfe0e103
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[189,248,34,230,138,120,148,188,179,221,187,217,104,185,86,64,60,112,224,214,196,31,148,52,160,179,51,24,32,37,122,80],"Salt":[20,184,208,225,22,147,182,114,21,132,221,62,57,161,185,12,197,6,8,192,149,229,227,115,82,72,105,253,176,39,166,118]}}
+    - Name: ChangeTimestamp
+      Id: g=e5df2282172562ddbd8331b701ce847a
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-12-08T13:55:29.1645209"
+    - Name: History
+      Id: g=72276e51fa2c18a5a5002f370ad2b5c0
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[189,248,34,230,138,120,148,188,179,221,187,217,104,185,86,64,60,112,224,214,196,31,148,52,160,179,51,24,32,37,122,80],"Salt":[20,184,208,225,22,147,182,114,21,132,221,62,57,161,185,12,197,6,8,192,149,229,227,115,82,72,105,253,176,39,166,118]}}]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=d183ae84bf7cb5528c9c302af8281b3d

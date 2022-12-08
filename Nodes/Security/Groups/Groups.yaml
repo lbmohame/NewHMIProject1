@@ -1,0 +1,10 @@
+Name: Groups
+Id: g=32b0000199a873715ce8d5e086828af7
+Type: FolderType
+Children:
+- Name: test
+  Id: g=53a71052980504514505b9779ebff82e
+  Type: GroupType
+- Name: admin
+  Id: g=d183ae84bf7cb5528c9c302af8281b3d
+  Type: GroupType

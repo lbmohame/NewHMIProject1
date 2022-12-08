@@ -1,0 +1,66 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=0804b0be42d461767904d5d1d34e0428
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: MotorWidget
+  Id: g=9a235f26131d2f356f2d25562a816f3e
+  Supertype: BaseObjectType
+  Children:
+  - Name: SetSpeed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: CmdOffOn
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Variable2
+  Id: g=0d2723640d89c7b9729924d961cecaf2
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Temperature
+  Id: g=7a2fd5e77d6664178b18ace1d2ed2e16
+  Type: AnalogItemType
+  DataType: Float
+  Value: 50.0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 4408652
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
