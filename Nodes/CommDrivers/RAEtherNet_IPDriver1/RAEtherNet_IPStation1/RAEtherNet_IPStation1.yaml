@@ -3,10 +3,12 @@ Id: g=16cd156c46e8653b5e5f8a5c473f5ac6
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
+  Id: g=af590a89305d6ae98c3a6a8540d673a9
   Type: BaseDataVariableType
   DataType: String
   Value: "192.168.169.132"
 - Name: OperationCode
+  Id: g=7c5ee4c012f6b7d96f05f270cd785d99
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
@@ -31,6 +33,7 @@ Children:
   Direction: Forward
 - File: Tags/Tags.yaml
 - Name: Types
+  Id: g=b7c40281047c6642c0f559d98edcb476
   Type: BaseObjectType
   Children:
   - Name: Motor
@@ -38,47 +41,57 @@ Children:
     Supertype: TagStructure
     Children:
     - Name: CmdOffOn
+      Id: g=43c9ddd3c0bf5c981e124f4097eb9e06
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=360cc8c935bb3a0587aff95b23ef5598
         Type: BaseDataVariableType
         DataType: String
         Value: "CmdOffOn"
     - Name: Power
+      Id: g=c3e78ce16ce84fbded860fb278f56c61
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=c918518255cc17de55d8bb7a641707a8
         Type: BaseDataVariableType
         DataType: String
         Value: "Power"
     - Name: SetSpeed
+      Id: g=69a27b97752d0d0f825aa0c4925b1063
       Type: RAEtherNetIPTag
       DataType: Int16
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=ee8678943512911d040cfc220acd09e4
         Type: BaseDataVariableType
         DataType: String
         Value: "SetSpeed"
     - Name: Speed
+      Id: g=ef2d60fdfdf5e71a1201fd115472c129
       Type: RAEtherNetIPTag
       DataType: Int16
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=e1d116b1ad2008bba038f9394c596525
         Type: BaseDataVariableType
         DataType: String
         Value: "Speed"
     - Name: Status
+      Id: g=6c8eaeb0aa437b98da6c96feaed5178b
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=c124a9dc91476cbff5de182afde566e8
         Type: BaseDataVariableType
         DataType: String
         Value: "Status"
@@ -87,56 +100,68 @@ Children:
     Supertype: TagStructure
     Children:
     - Name: Level
+      Id: g=fbbfdd2e82883077bad63e8ee0daa578
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=0d320fea1047cfa4ec85fe7a9b9e8731
         Type: BaseDataVariableType
         DataType: String
         Value: "Level"
     - Name: SetPoint
+      Id: g=c51f40dcabab3bfe07f88678180cba6d
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=175c560c297840c44db052826e6d9075
         Type: BaseDataVariableType
         DataType: String
         Value: "SetPoint"
     - Name: ValveInCmd
+      Id: g=ea942f0e2e5c30b2afe5310390e3ff77
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=657be15cdfc8275e2111453534ebe270
         Type: BaseDataVariableType
         DataType: String
         Value: "ValveInCmd"
     - Name: ValveInStatus
+      Id: g=9778e3348d93cf1716f1a5d1562c88e3
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=dc42ee616ba402416d7ffd66526e3368
         Type: BaseDataVariableType
         DataType: String
         Value: "ValveInStatus"
     - Name: ValveOutCmd
+      Id: g=d8bbd4080c4e6a112df5ae3f9135c8bc
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=5e7ed62b76a2f12a2162b97fdf27bf2e
         Type: BaseDataVariableType
         DataType: String
         Value: "ValveOutCmd"
     - Name: ValveOutStatus
+      Id: g=c9305bf35be66e00b2d1b99d1d0f76e1
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=9750a8aae60a33f72ecc1ee757436e07
         Type: BaseDataVariableType
         DataType: String
         Value: "ValveOutStatus"

@@ -1,28 +1,35 @@
 Name: Alarms
+Id: g=77a77b2cf8c251671af2e6015a538800
 Type: FolderType
 Children:
 - Name: DigitalAlarm1
+  Id: g=aa8c2eb28597a3457b7795e4933b6a4d
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
+    Id: g=bfc9196f8c2f4778a0503e312034139a
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=51acee114e90b5950c0c8f1717de2442
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=97ebaf1c00a5ac10f95a1f8fb7e3fadf
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../Model/Variable2"
       Children:
       - Name: Mode
+        Id: g=0bb2fbc5e16bc577facc21ea7aa15fa4
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=9a1f571f45271cc52c43293114bf3845
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -37,27 +44,33 @@ Children:
     Target: ns=31;i=83
     Direction: Forward
   - Name: Message
+    Id: g=e7875e4a6ef2eed0f7c042c255f11c38
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":7,"TextId":"pump stopped"}
 - Name: ExclusiveLevelAlarm1
+  Id: g=24247b4a2372303beb94ae718e67c865
   Type: ExclusiveLevelAlarmController
   Children:
   - Name: InputValue
+    Id: g=a7c0f5a7ee61bfd94a1d030af35c2555
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=bf09b9f60811df6fd75a2ace11f8ba9a
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../Model/Variable1"
       Children:
       - Name: Mode
+        Id: g=33974e59b2dac51c2b4111ca13e93218
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=f864f54ecfd0db20b5f5e0eaf8189618
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -72,26 +85,32 @@ Children:
     Target: ns=31;i=83
     Direction: Forward
   - Name: HighLimit
+    Id: g=912509e637d201731fc12a8b2d36a340
     Type: BaseDataVariableType
     DataType: Double
     Value: 75.0
   - Name: HighHighLimit
+    Id: g=f3c4ffecda5860a2383c3109abf38d0a
     Type: BaseDataVariableType
     DataType: Double
     Value: 90.0
   - Name: LowLimit
+    Id: g=ac51c1f01d22d094ee2fa9f113ebeb91
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: LowLowLimit
+    Id: g=ce31da9a687a5e8b7dd1e877ac11ae93
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: Severity
+    Id: g=e68e7db9a1da43578232d1a414a00329
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 3
   - Name: Message
+    Id: g=f62216458202bb00158b8bb8230da91c
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":7,"TextId":"valve overflow"}

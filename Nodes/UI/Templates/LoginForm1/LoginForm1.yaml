@@ -1,4 +1,5 @@
 Name: LoginForm1
+Id: g=8ce313d86583954331a0e1520522e685
 Type: FolderType
 Children:
 - Name: LoginForm
@@ -7,76 +8,91 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Panel
+    Id: g=a8b3152da33bf75f1b124cda1782f31d
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=187a97b4a1be26dfd870d5aea2d07e94
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":71,"Namespace":3}
     - Name: ConditionalConverter1
+      Id: g=90bdb6a73b61de63d06a53005d4ba65b
       Type: ConditionalConverter
       Children:
       - Name: Condition
+        Id: g=ca3cd8cb14360d8e406dce3aca2687e0
         Type: BaseDataVariableType
         DataType: Boolean
         ReferenceType: HasSource
         Value: false
         Children:
         - Name: DynamicLink
+          Id: g=ea7ac40d00b87595ba0ae3bb09940e3a
           Type: DynamicLink
           DataType: NodePath
           Value: "{Session}/LoggedIn"
       - Name: TrueValue
+        Id: g=cd9110fc411ea64aed661639453b83af
         Type: BaseDataVariableType
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
         Value: {"IdType":2,"Id":"4f3c0f044d478e1c15e8d9d85939f613","Namespace":7}
       - Name: FalseValue
+        Id: g=86f0dcb3bdccb4c3f291f0ea135a89fd
         Type: BaseDataVariableType
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
         Value: {"IdType":2,"Id":"31284327d16bdc3911602fcd74dafc3f","Namespace":7}
   - Name: CurrentPanel
+    Id: g=2d62128924da9563c77a2399a7eecc48
     Type: NodePointer
     DataType: NodeId
     AccessLevel: Read
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=5523e75eb23f7048ce542fda38b2d8d7
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":6,"Namespace":3}
   - Class: Reference
     Target: ns=3;i=478
   - Name: Width
+    Id: g=14fb823d96f0dbf4bd831a38498032b0
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
   - Name: Height
+    Id: g=3dbd40a651d081362ba7a4d055db94c8
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
   - Name: Users
+    Id: g=644c6dc170e49d5d40402769d3b4203a
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=80ca994cc10296aec8f13c91dc21f945
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":61}
   - Name: PanelAliasNode
+    Id: g=d6818533706d438edede1968591a8eaa
     Type: BaseDataVariableType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: DynamicLink
+      Id: g=133f28ee34c2d3dda8067fdcdc1a8154
       Type: DynamicLink
       DataType: NodePath
       Value: "../Users@NodeId"

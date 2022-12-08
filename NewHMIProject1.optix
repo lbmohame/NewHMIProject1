@@ -129,5 +129,33 @@ Project:
    Uri: 'urn:FTOptix:Alarm:Net'
    Module: FTOptix.Alarm.Net
    Version: 1.0
+  33:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.0
+  34:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.0
+  35:
+   Uri: 'ce4587b0bb882360505a86bdd3c7ce84#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: ce4587b0bb882360505a86bdd3c7ce84
+  36:
+   Uri: 'ce4587b0bb882360505a86bdd3c7ce84#urn:DESKTOP-ET9DM06:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: ce4587b0bb882360505a86bdd3c7ce84
+  37:
+   Uri: 'ce4587b0bb882360505a86bdd3c7ce84#http://opcfoundation.org/UA/DI/'
+   ServerUri: ce4587b0bb882360505a86bdd3c7ce84
+  38:
+   Uri: 'ce4587b0bb882360505a86bdd3c7ce84#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: ce4587b0bb882360505a86bdd3c7ce84
+  39:
+   Uri: 'urn:FTOptix:OPCUAClient'
+   Module: FTOptix.OPCUAClient
+   Version: 1.0
+  40:
+   Uri: 'urn:FTOptix:OPCUAClient:Net'
+   Module: FTOptix.OPCUAClient.Net
+   Version: 1.0
  Nodes:
  - File: Nodes/NewHMIProject1.yaml

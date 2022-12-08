@@ -1,7 +1,9 @@
 Name: Translations
+Id: g=ef00d73e9f68b798701f5dc779fa0bfa
 Type: FolderType
 Children:
 - Name: LocalizationDictionary1
+  Id: g=5b20a26cf0c1a59281c9be1c19b51990
   Type: LocalizationDictionary
   DataType: String
   ValueRank: OneOrMoreDimensions
@@ -33,39 +35,49 @@ Children:
     ]
    }
 - Name: ImportAndExportTranslations
+  Id: g=42307ca2722912c06614a19210cb5052
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: BehaviourStartPriority
+    Id: g=5f4b57f23585d9eb215f8315bf71e26c
     Type: BehaviourStartPriorityVariableType
     DataType: Byte
     Value: 180
   - Name: CSVPath
+    Id: g=7bbe475cc29fb18c7d588a58ec87cc61
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: "file:///C:/Users/Rockwell/Desktop/test_Alan_trainig/export_languages.csv"
   - Class: Method
     Name: ExportTranslations
+    Id: g=cf1ea4293ac90af7e86a394b1cec6ef7
   - Class: Method
     Name: ImportTranslations
+    Id: g=2ab0b742d54538d8f33b9881e631ef6b
   - Name: CharacterSeparator
+    Id: g=ffdb2ca837ff0ff5023dc12b489aa667
     Type: BaseDataVariableType
     DataType: String
     Value: ","
   - Name: WrapFields
+    Id: g=8eb5f177d936216896d366a6c2d8fe28
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: LocalizationDictionary
+    Id: g=d63e39be3a76cce4825652f1982343c9
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=6ccd2fcabfb541027dee2af7ae2b0c9b
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":42,"Namespace":1}
     - Name: NodeClass
+      Id: g=7cfd33db9f48ed4a1ebcd7976380d541
       Type: PropertyType
       DataType: NodePointerNodeClass
       Value: 0

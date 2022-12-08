@@ -7,6 +7,8 @@ using FTOptix.HMIProject;
 using FTOptix.UI;
 using FTOptix.EventLogger;
 using FTOptix.Alarm;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class MultiStateSelectorStatusUpdater : BaseNetLogic

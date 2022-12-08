@@ -1,4 +1,5 @@
 Name: Model
+Id: g=0f25b1b9e730b13f555d22b02adbb4a6
 Type: FolderType
 Children:
 - Name: Variable1
@@ -11,10 +12,12 @@ Children:
   Supertype: BaseObjectType
   Children:
   - Name: SetSpeed
+    Id: g=f59cf27246f81050002bd062fab9a1d9
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: CmdOffOn
+    Id: g=1e61067aef4cba3312c0ca978663a59d
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
@@ -30,36 +33,43 @@ Children:
   Value: 50.0
   Children:
   - Name: EURange
+    Id: g=9274f0537956adb0ad508f706da7bd2d
     Type: RangeType
     DataType: EURange
     Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
     Children:
     - Name: Low
+      Id: g=155e1bea85c57c8337ebc60846697a13
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 0.0
     - Name: High
+      Id: g=5c38371863e09a6eb8771759f4eaed76
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 0.0
   - Name: EngineeringUnits
+    Id: g=1b869a8e378e413d955edbbe10431c57
     Type: EUInformationType
     DataType: EUInformation
     Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
     Children:
     - Name: UnitId
+      Id: g=e10f5667d22057a13cecb1f71c72b05b
       Type: BaseVariableType
       DataType: Int32
       ReferenceType: HasProperty
       Value: 4408652
     - Name: DisplayName
+      Id: g=4aeceea3e6eaa2a2064948164409ee76
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Description
+      Id: g=d140b66bbd7f2e186c0f066f761c7aa2
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty

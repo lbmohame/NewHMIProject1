@@ -1,4 +1,5 @@
 Name: DataStores
+Id: g=ba0a84fcac8d278df08ec499f0c87737
 Type: FolderType
 Children:
 - Name: EmbeddedDatabase1
@@ -6,9 +7,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=e17efde6f8886c8342951de7645df011
     Type: BaseObjectType
     Children:
     - Name: DataLogger1
+      Id: g=2a60fcb1221727b33e28d25f9181b58b
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -24,25 +27,31 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=beb6de5684379a0f24c94cfe5a3051c9
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=e14a7462923f3df49d75e6f41e023c03
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
+          Id: g=7f2bed2c915a3f32e95f913d6577a3dc
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: VariableToSample1
+          Id: g=301de1dc0916f89ed5942bde7bdaf7ee
           Type: StoreColumn
           DataType: Int16
           Value: 0
         - Name: VariableToSample2
+          Id: g=86d4e5adb288b312e0693c7499401f5e
           Type: StoreColumn
           DataType: Int16
           Value: 0
     - Name: EventLogger1
+      Id: g=c3b027fa95e7532ea36c8bb7fad9daff
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -58,37 +67,56 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=c1ea24b3fad162aa2088fe04a50c27f7
         Type: BaseObjectType
         Children:
         - Name: ReceiveTime
+          Id: g=aca658ddf6b30afc33c23715237b3660
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: EventType
+          Id: g=17195012e4bd4ab937d8bfb8639decc7
           Type: StoreColumn
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: 'Message_en-US'
+          Id: g=7e6ac5030b06dbad5591fcdf2a5fad5a
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: SourceName
+          Id: g=c34fdcf618a592df98627424b0788cf4
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Username
+          Id: g=cfcc0e2c386a2f7675f2d2c757d7aba2
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Tag
+          Id: g=fa99ef3001376b471682615bd81c5335
           Type: StoreColumn
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: Timestamp
+          Id: g=0eb7da12628c6d944fb51d8dd32ca999
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'Message_fr-FR'
+          Id: g=aa5e765676f25b72e9fa62149d42e2dd
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: 'Message_ar-SA'
+          Id: g=f9ee4e762d06c5a7712eb447fb19f0c7
+          Type: StoreColumn
+          DataType: String
+          Value: ""
     - Name: AlarmsEventLogger1
+      Id: g=abf31e471348ee98e87f2439ae220d1e
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -104,48 +132,69 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=c10ea9d7e2bf918ac5bee2fc2a397377
         Type: BaseObjectType
         Children:
         - Name: ActiveState_Id
+          Id: g=34f32e3c5da0db012d2d1f9b0db13eb4
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: AckedState_Id
+          Id: g=00bd8b5aba3a2fe38132e5c27b0635ef
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConfirmedState_Id
+          Id: g=9b0e151be162d166d3bd4052887d65eb
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConditionName
+          Id: g=799d858d488cff7df15ee6303e19822c
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: EnabledState_Id
+          Id: g=72125b75cad7ac420108eb4ffea7c1f9
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: SourceName
+          Id: g=9e304139e42c43f57c33442490be703b
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Time
+          Id: g=8fbb433307e91bd2df67cc0cfa8cc687
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
+          Id: g=b21239b7168ee95b5f5eda20f95c7246
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Severity
+          Id: g=ee7e39461ea8b0e2dbfb4ea65b68cb0d
           Type: StoreColumn
           DataType: UInt16
           Value: 0
         - Name: LocalTime
+          Id: g=c81812fb81d155a7f364028602974797
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'Message_fr-FR'
+          Id: g=2aafe1572ae4d2ca57a4cc8678ede459
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: 'Message_ar-SA'
+          Id: g=da93603baedcb2a83a51d6606be3fb4a
+          Type: StoreColumn
+          DataType: String
+          Value: ""
   - Class: Reference
     Target: ns=10;i=30
     Direction: Forward
@@ -153,16 +202,19 @@ Children:
     Target: ns=10;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=ede9667b03f5ed333fdfc7bc389dd3fc
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MaxColumnCount
+    Id: g=19e33aacb7956ef422c5a7b6fd2435d3
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: DataTypeCompatibilityMap
+    Id: g=192add24a83ba640798452517d7ba261
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
@@ -170,6 +222,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=e85232a8d8143f91554be1a4c6d66c03
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read

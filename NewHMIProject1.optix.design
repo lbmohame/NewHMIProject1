@@ -31,5 +31,22 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 1.0
+  9:
+   Uri: 'ce4587b0bb882360505a86bdd3c7ce84#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: ce4587b0bb882360505a86bdd3c7ce84
+  10:
+   Uri: 'ce4587b0bb882360505a86bdd3c7ce84#urn:DESKTOP-ET9DM06:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: ce4587b0bb882360505a86bdd3c7ce84
+  11:
+   Uri: 'ce4587b0bb882360505a86bdd3c7ce84#http://opcfoundation.org/UA/DI/'
+   ServerUri: ce4587b0bb882360505a86bdd3c7ce84
+  12:
+   Uri: 'ce4587b0bb882360505a86bdd3c7ce84#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: ce4587b0bb882360505a86bdd3c7ce84
+  13:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
  Nodes:
  - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient1/OPCUATagImporter.yaml'
