@@ -47,33 +47,6 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#a0ab24a7"
-    - Name: Image1
-      Id: g=208f87804c5403176611e53b51300980
-      Type: Image
-      Children:
-      - Name: Path
-        Id: g=bff414db91b7b1807c3e89ad83995af2
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/FTOptixLogo_cyan.svg"
-      - Name: Width
-        Id: g=026cb960e598a9c274fe0fe3c3a5e0cc
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 290.0
-      - Name: Height
-        Id: g=c77856df60b90c0ce122a53bf6d123d7
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: LeftMargin
-        Id: g=21a511efb1775d457cd322949f461e45
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 10.0
     - Name: LeftMargin
       Id: g=e7941661d0d6862e8f689c6cbb6e0e8e
       Type: BaseVariableType
